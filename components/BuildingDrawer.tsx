@@ -8,12 +8,14 @@ interface BuildingDrawerProps {
   building: Building | null;
   collectionId: string | null;
   onClose: () => void;
+  isMobile?: boolean;
 }
 
 export default function BuildingDrawer({
   building,
   collectionId,
   onClose,
+  isMobile = false,
 }: BuildingDrawerProps) {
   if (!building) return null;
 
@@ -195,6 +197,7 @@ export default function BuildingDrawer({
 
       {/* Actions */}
       <div
+        className="bb-drawer-actions"
         style={{
           padding: "1rem",
           borderTop: "var(--bb-border)",
@@ -209,9 +212,12 @@ export default function BuildingDrawer({
         <button onClick={copyLink} className="bb-button">
           COPY LINK
         </button>
-        <button onClick={onClose} className="bb-button">
-          BACK TO RESULTS
-        </button>
+        {/* Hide on mobile - sheet has its own close button */}
+        {!isMobile && (
+          <button onClick={onClose} className="bb-button">
+            BACK TO RESULTS
+          </button>
+        )}
       </div>
     </div>
   );

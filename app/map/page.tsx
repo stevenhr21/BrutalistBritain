@@ -35,6 +35,19 @@ function MapPageContent() {
   const [isMobileDrawerOpen, setIsMobileDrawerOpen] = useState(false);
   const [isMobileSidebarOpen, setIsMobileSidebarOpen] = useState(false);
 
+  // Lock body scroll when mobile drawer or sidebar is open
+  useEffect(() => {
+    const isOpen = isMobileDrawerOpen || isMobileSidebarOpen;
+    if (isOpen) {
+      document.body.classList.add("bb-mobile-scroll-lock");
+    } else {
+      document.body.classList.remove("bb-mobile-scroll-lock");
+    }
+    return () => {
+      document.body.classList.remove("bb-mobile-scroll-lock");
+    };
+  }, [isMobileDrawerOpen, isMobileSidebarOpen]);
+
   // Data
   const allBuildings = useMemo(() => getAllBuildings(), []);
   const collections = useMemo(() => getAllCollections(), []);
@@ -90,6 +103,7 @@ function MapPageContent() {
 
   return (
     <div
+      className="bb-map-page-container"
       style={{
         display: "flex",
         height: "100vh",
@@ -97,25 +111,22 @@ function MapPageContent() {
         overflow: "hidden",
       }}
     >
-      {/* Mobile Toggle Buttons */}
+      {/* Mobile Toggle Button - positioned in the title strip area */}
       <div
         className="mobile-controls"
         style={{
           position: "fixed",
-          top: "1rem",
-          left: "1rem",
+          top: 0,
+          left: 0,
           zIndex: 1100,
           display: "none",
         }}
       >
         <button
-          className="bb-button bb-button--small"
+          className="bb-button bb-button--small bb-mobile-menu-btn"
           onClick={() => setIsMobileSidebarOpen(!isMobileSidebarOpen)}
-          style={{
-            backgroundColor: "var(--bb-paper)",
-          }}
         >
-          {isMobileSidebarOpen ? "CLOSE" : "MENU"}
+          {isMobileSidebarOpen ? "✕" : "☰"}
         </button>
       </div>
 
@@ -174,6 +185,7 @@ function MapPageContent() {
               building={selectedBuilding}
               collectionId={selectedCollectionId}
               onClose={handleCloseDrawer}
+              isMobile={false}
             />
           </div>
         )}
@@ -217,7 +229,7 @@ function MapPageContent() {
         onClick={handleCloseDrawer}
       />
 
-      {/* Mobile Drawer Sheet */}
+      {/* Mobile Drawer Sheet - Bottom Sheet */}
       <div
         className="mobile-drawer-sheet"
         style={{
@@ -225,24 +237,38 @@ function MapPageContent() {
           position: "fixed",
           bottom: 0,
           left: 0,
-          width: "100%",
-          height: "70vh",
+          right: 0,
+          maxHeight: "70dvh",
           backgroundColor: "var(--bb-paper)",
-          borderTop: "var(--bb-border)",
+          borderTop: "3px solid var(--bb-ink)",
           zIndex: 1001,
           transform: isMobileDrawerOpen ? "translateY(0)" : "translateY(100%)",
           transition: "transform 0.2s ease",
+          overflowY: "auto",
+          WebkitOverflowScrolling: "touch",
+          overscrollBehavior: "contain",
         }}
       >
+        {/* Mobile Sheet Handle */}
+        <div className="bb-mobile-sheet-header">
+          <div className="bb-mobile-sheet-handle" />
+          <button
+            className="bb-button bb-button--small bb-mobile-sheet-close"
+            onClick={handleCloseDrawer}
+          >
+            ✕ CLOSE
+          </button>
+        </div>
         <BuildingDrawer
           building={selectedBuilding}
           collectionId={selectedCollectionId}
           onClose={handleCloseDrawer}
+          isMobile={true}
         />
       </div>
 
       <style jsx>{`
-        @media (max-width: 1024px) {
+        @media (max-width: 900px) {
           .drawer-container {
             display: none !important;
           }
@@ -250,9 +276,6 @@ function MapPageContent() {
           .mobile-drawer-sheet {
             display: block !important;
           }
-        }
-
-        @media (max-width: 768px) {
           .sidebar-container {
             position: fixed !important;
             left: 0;
@@ -260,7 +283,8 @@ function MapPageContent() {
             z-index: 1001;
             transform: ${isMobileSidebarOpen ? "translateX(0)" : "translateX(-100%)"};
             transition: transform 0.2s ease;
-            width: 320px !important;
+            width: min(320px, 85vw) !important;
+            height: 100% !important;
           }
           .mobile-controls {
             display: block !important;

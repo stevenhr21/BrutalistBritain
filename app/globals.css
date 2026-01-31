@@ -691,7 +691,7 @@ a:hover {
 }
 
 /* ==========================================
-   RESPONSIVE
+   RESPONSIVE - GENERAL
    ========================================== */
 
 @media (max-width: 768px) {
@@ -702,6 +702,235 @@ a:hover {
   .bb-button {
     padding: 0.625rem 1.25rem;
     font-size: 0.8rem;
+  }
+}
+
+/* ==========================================
+   MOBILE-ONLY STYLES — MAP PAGE
+   Breakpoint: max-width: 900px
+   These styles ONLY affect mobile/tablet views.
+   Desktop layout (>= 901px) remains unchanged.
+   ========================================== */
+
+/* Body scroll lock when mobile drawer/sidebar is open */
+@media (max-width: 900px) {
+  body.bb-mobile-scroll-lock {
+    overflow: hidden !important;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Map page container - use dvh on mobile */
+@media (max-width: 900px) {
+  .bb-map-page-container {
+    height: 100dvh !important;
+  }
+}
+
+/* ==========================================
+   MOBILE: Menu Button Styling
+   ========================================== */
+
+@media (max-width: 900px) {
+  .bb-mobile-menu-btn {
+    /* Position inside the title strip area */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1100;
+    height: 37px; /* Match header strip height */
+    width: 48px;
+    padding: 0 !important;
+    background-color: var(--bb-paper) !important;
+    border: none !important;
+    border-right: 2px solid var(--bb-ink) !important;
+    border-bottom: 2px solid var(--bb-ink) !important;
+    font-size: 1rem !important;
+    /* Safe area support */
+    padding-top: env(safe-area-inset-top, 0) !important;
+  }
+  
+  .bb-mobile-menu-btn:hover {
+    background-color: var(--bb-ink) !important;
+    color: var(--bb-paper) !important;
+  }
+}
+
+/* ==========================================
+   MOBILE: Map Header Strip Adjustments
+   ========================================== */
+
+@media (max-width: 900px) {
+  .bb-map-header {
+    /* Add left padding to make room for menu button */
+    padding-left: 56px !important;
+    /* Safe area support for iOS notch */
+    padding-top: calc(0.5rem + env(safe-area-inset-top, 0)) !important;
+  }
+  
+  .bb-map-header-left {
+    font-size: 0.6rem;
+  }
+  
+  .bb-map-header-right {
+    font-size: 0.55rem;
+  }
+}
+
+/* ==========================================
+   MOBILE: Leaflet Zoom Controls Repositioning
+   ========================================== */
+
+@media (max-width: 900px) {
+  /* Move zoom controls below the header strip and away from menu */
+  .bb-map .leaflet-control-zoom {
+    margin-top: 56px !important; /* Below header with safe area */
+    margin-left: 10px !important;
+  }
+  
+  /* Ensure controls respect safe area */
+  .bb-map .leaflet-top.leaflet-left {
+    top: env(safe-area-inset-top, 0);
+    left: env(safe-area-inset-left, 0);
+  }
+  
+  /* Style zoom controls for touch targets */
+  .bb-map .leaflet-control-zoom a {
+    width: 36px !important;
+    height: 36px !important;
+    line-height: 34px !important;
+    font-size: 16px !important;
+  }
+}
+
+/* ==========================================
+   MOBILE: Legend Repositioning
+   ========================================== */
+
+@media (max-width: 900px) {
+  .bb-map-legend {
+    /* Reposition upward to avoid being cut off */
+    bottom: 80px !important;
+    left: 10px !important;
+    /* Constrain width to viewport */
+    max-width: calc(100vw - 24px);
+    /* Ensure within safe areas */
+    margin-left: env(safe-area-inset-left, 0);
+    margin-bottom: env(safe-area-inset-bottom, 0);
+  }
+  
+  /* Slightly smaller legend on mobile */
+  .bb-map-legend-title {
+    font-size: 0.55rem;
+  }
+  
+  .bb-map-legend-item {
+    font-size: 0.5rem;
+  }
+}
+
+/* ==========================================
+   MOBILE: Bottom Sheet Header
+   ========================================== */
+
+@media (max-width: 900px) {
+  .bb-mobile-sheet-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    border-bottom: 2px solid var(--bb-ink);
+    background-color: var(--bb-paper);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .bb-mobile-sheet-handle {
+    width: 40px;
+    height: 4px;
+    background-color: var(--bb-ink);
+    margin-bottom: 0.5rem;
+  }
+  
+  .bb-mobile-sheet-close {
+    width: 100%;
+  }
+}
+
+/* Hide sheet header on desktop */
+@media (min-width: 901px) {
+  .bb-mobile-sheet-header {
+    display: none !important;
+  }
+}
+
+/* ==========================================
+   MOBILE: Bottom Sheet Content Scroll
+   ========================================== */
+
+@media (max-width: 900px) {
+  .mobile-drawer-sheet {
+    /* Ensure proper scroll behavior */
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+    /* Safe area padding at bottom */
+    padding-bottom: env(safe-area-inset-bottom, 0);
+  }
+  
+  /* Remove redundant padding in drawer when inside sheet */
+  .mobile-drawer-sheet .bb-panel {
+    border: none !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+  
+  /* Make drawer actions sticky at bottom for accessibility */
+  .mobile-drawer-sheet .bb-drawer-actions {
+    position: sticky;
+    bottom: 0;
+    background-color: var(--bb-paper);
+    padding-bottom: calc(1rem + env(safe-area-inset-bottom, 0)) !important;
+    border-top: 2px solid var(--bb-ink);
+    margin-top: 1rem;
+  }
+}
+
+/* ==========================================
+   MOBILE: Map Frame Adjustments
+   ========================================== */
+
+@media (max-width: 900px) {
+  .bb-map-frame {
+    /* Ensure map doesn't extend behind controls */
+    position: relative;
+  }
+  
+  /* Scale control positioning */
+  .bb-map .leaflet-control-scale {
+    margin-left: 10px !important;
+    margin-bottom: 90px !important; /* Above legend */
+  }
+  
+  /* Attribution positioning */
+  .bb-map .leaflet-control-attribution {
+    max-width: calc(100vw - 120px);
+    font-size: 0.5rem !important;
+  }
+}
+
+/* ==========================================
+   MOBILE: Sidebar Overlay Styling
+   ========================================== */
+
+@media (max-width: 900px) {
+  .sidebar-container {
+    /* Safe area support */
+    padding-top: env(safe-area-inset-top, 0);
+    padding-bottom: env(safe-area-inset-bottom, 0);
+    padding-left: env(safe-area-inset-left, 0);
   }
 }
 
