@@ -1,0 +1,118 @@
+name: Suggest a Building
+description: Suggest a brutalist building to add to Brutalist Britain
+title: "[BUILDING] "
+labels: ["building-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Suggest a Brutalist Building
+
+        Thanks for helping grow our database of London's brutalist architecture!
+        Please fill in as much detail as you can.
+
+  - type: input
+    id: building_name
+    attributes:
+      label: Building Name
+      description: The official or commonly known name of the building
+      placeholder: e.g., Trellick Tower
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Address, area, or a Google Maps link
+      placeholder: e.g., Golborne Road, North Kensington, London W10
+    validations:
+      required: true
+
+  - type: textarea
+    id: why_brutalist
+    attributes:
+      label: Why is it brutalist / notable?
+      description: Tell us what makes this building significant or interesting
+      placeholder: Describe the architectural features, history, or cultural significance
+    validations:
+      required: true
+
+  - type: input
+    id: architect
+    attributes:
+      label: Architect (optional)
+      description: The architect or architectural firm if known
+      placeholder: e.g., Ernő Goldfinger
+    validations:
+      required: false
+
+  - type: input
+    id: year
+    attributes:
+      label: Year Built (optional)
+      description: The year of completion if known
+      placeholder: e.g., 1972
+    validations:
+      required: false
+
+  - type: dropdown
+    id: building_type
+    attributes:
+      label: Building Type
+      description: Select the primary use of the building
+      options:
+        - Housing
+        - Civic
+        - Mixed Use
+        - Education
+        - Transport
+        - Commercial
+        - Other
+    validations:
+      required: false
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Current Status
+      description: The current state of the building
+      options:
+        - Standing (original condition)
+        - Altered (modified but intact)
+        - Threatened (at risk)
+        - Demolished
+    validations:
+      required: false
+
+  - type: textarea
+    id: photos
+    attributes:
+      label: Photo Links & Credits
+      description: Links to photos (Wikimedia Commons preferred). Include photographer credits and licenses.
+      placeholder: |
+        - https://commons.wikimedia.org/wiki/Category:Example
+          Credit: Photographer Name, CC BY-SA 4.0
+    validations:
+      required: false
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Links to Wikipedia, official pages, or other references
+      placeholder: |
+        - https://en.wikipedia.org/wiki/Example_Building
+        - https://historicengland.org.uk/listing/...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: This building is located in London (or Greater London)
+          required: true
+        - label: I have checked that this building is not already in the database
+          required: true

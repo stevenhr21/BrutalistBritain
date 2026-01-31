@@ -1,0 +1,346 @@
+[
+  {
+    "id": "barbican_estate",
+    "name": "Barbican Estate",
+    "area": "City of London",
+    "lat": 51.5200,
+    "lng": -0.0936,
+    "type": "housing",
+    "year": 1976,
+    "architect": "Chamberlin, Powell and Bon",
+    "status": "standing",
+    "shortBlurb": "Grade II listed residential complex and arts centre. One of the most significant examples of Brutalist architecture in the UK, featuring exposed concrete, geometric forms, and elevated walkways.",
+    "tags": ["Grade II Listed", "Housing Estate", "Arts Centre", "Elevated Walkways", "Landmark"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Barbican_Estate",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Barbican_Estate"
+      },
+      {
+        "label": "Historic England",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1352734"
+      }
+    ],
+    "image": "/buildings/barbican_estate.webp",
+    "imageAlt": "Barbican Estate brutalist concrete towers and elevated walkways"
+  },
+  {
+    "id": "trellick_tower",
+    "name": "Trellick Tower",
+    "area": "North Kensington",
+    "lat": 51.5244,
+    "lng": -0.2058,
+    "type": "housing",
+    "year": 1972,
+    "architect": "Ernő Goldfinger",
+    "status": "standing",
+    "shortBlurb": "Grade II* listed 31-storey residential tower. Goldfinger's masterpiece features a separate service tower connected by walkways at every third floor, becoming a Brutalist icon.",
+    "tags": ["Grade II* Listed", "Tower Block", "Social Housing", "Goldfinger", "Landmark"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Trellick_Tower",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Trellick_Tower"
+      },
+      {
+        "label": "Historic England",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1246696"
+      }
+    ],
+    "image": "/buildings/trellick_tower.webp",
+    "imageAlt": "Trellick Tower by Erno Goldfinger"
+  },
+  {
+    "id": "balfron_tower",
+    "name": "Balfron Tower",
+    "area": "Poplar",
+    "lat": 51.5128,
+    "lng": -0.0088,
+    "type": "housing",
+    "year": 1967,
+    "architect": "Ernő Goldfinger",
+    "status": "standing",
+    "shortBlurb": "Grade II* listed 27-storey residential tower. Goldfinger lived here temporarily to understand residents' experiences. Now converted to private ownership after controversial regeneration.",
+    "tags": ["Grade II* Listed", "Tower Block", "Goldfinger", "East London", "Regenerated"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Balfron_Tower",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Balfron_Tower"
+      }
+    ],
+    "image": "/buildings/balfron_tower.webp",
+    "imageAlt": "Balfron Tower by Erno Goldfinger"
+  },
+  {
+    "id": "national_theatre",
+    "name": "National Theatre",
+    "area": "South Bank",
+    "lat": 51.5071,
+    "lng": -0.1139,
+    "type": "civic",
+    "year": 1976,
+    "architect": "Denys Lasdun",
+    "status": "standing",
+    "shortBlurb": "Grade II* listed theatre complex on the South Bank. Lasdun's layered horizontal strata of exposed concrete create dramatic terraces overlooking the Thames.",
+    "tags": ["Grade II* Listed", "Theatre", "South Bank", "Lasdun", "Cultural"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Royal_National_Theatre",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/National_Theatre_(London)"
+      },
+      {
+        "label": "National Theatre",
+        "url": "https://www.nationaltheatre.org.uk/"
+      }
+    ],
+    "image": "/buildings/national_theatre.webp",
+    "imageAlt": "National Theatre by Denys Lasdun. A performing arts venue adjacent to the Southbank Centre."
+  },
+  {
+    "id": "hayward_gallery",
+    "name": "Hayward Gallery",
+    "area": "South Bank",
+    "lat": 51.5060,
+    "lng": -0.1163,
+    "type": "civic",
+    "year": 1968,
+    "architect": "LCC Architects Department",
+    "status": "standing",
+    "shortBlurb": "Grade II listed art gallery forming part of the Southbank Centre. Raw concrete forms with distinctive pyramidal skylights. Controversial when built, now celebrated.",
+    "tags": ["Grade II Listed", "Gallery", "South Bank", "Southbank Centre", "Cultural"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Hayward_Gallery",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hayward_Gallery"
+      },
+      {
+        "label": "Hayward Gallery",
+        "url": "https://www.southbankcentre.co.uk/venues/hayward-gallery"
+      }
+    ],
+    "image": "/buildings/hayward_gallery.webp",
+    "imageAlt": "Hayward Gallery by LCC Architects Department. A modern art gallery adjacent to the Southbank Centre."
+  },
+  {
+    "id": "alexandra_road_estate",
+    "name": "Alexandra Road Estate",
+    "area": "Camden",
+    "lat": 51.5420,
+    "lng": -0.1750,
+    "type": "housing",
+    "year": 1978,
+    "architect": "Neave Brown",
+    "status": "standing",
+    "shortBlurb": "Grade II* listed housing estate nicknamed 'Rowley Way'. Ziggurat-style terraced housing following a curved railway line. Featured in numerous films and music videos.",
+    "tags": ["Grade II* Listed", "Housing Estate", "Ziggurat", "Camden", "Film Location"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Alexandra_Road_Estate",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Alexandra_Road_Estate"
+      }
+    ],
+    "image": "/buildings/alexandra_road_estate.webp",
+    "imageAlt": "Alexandra Road Estate by Neave Brown. A housing estate in Camden, London."
+  },
+  {
+    "id": "royal_college_of_physicians",
+    "name": "Royal College of Physicians",
+    "area": "Regent's Park",
+    "lat": 51.5265,
+    "lng": -0.1460,
+    "type": "civic",
+    "year": 1964,
+    "architect": "Denys Lasdun",
+    "status": "standing",
+    "shortBlurb": "Grade I listed headquarters building. Lasdun's early masterpiece featuring a bold concrete and mosaic facade. One of few Grade I listed buildings from the modern era.",
+    "tags": ["Grade I Listed", "Institutional", "Lasdun", "Regent's Park", "Medical"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Royal_College_of_Physicians_building",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Royal_College_of_Physicians"
+      },
+      {
+        "label": "RCP",
+        "url": "https://www.rcp.ac.uk/"
+      }
+    ]
+  },
+  {
+    "id": "keeling_house",
+    "name": "Keeling House",
+    "area": "Bethnal Green",
+    "lat": 51.5290,
+    "lng": -0.0570,
+    "type": "housing",
+    "year": 1957,
+    "architect": "Denys Lasdun",
+    "status": "standing",
+    "shortBlurb": "Grade II* listed cluster tower. Lasdun's innovative design groups four interconnected towers around a central core. Threatened with demolition before rescue and refurbishment.",
+    "tags": ["Grade II* Listed", "Tower Block", "Lasdun", "East London", "Refurbished"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Keeling_House",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Keeling_House"
+      }
+    ]
+  },
+  {
+    "id": "brunswick_centre",
+    "name": "Brunswick Centre",
+    "area": "Bloomsbury",
+    "lat": 51.5244,
+    "lng": -0.1229,
+    "type": "mixed_use",
+    "year": 1972,
+    "architect": "Patrick Hodgkinson",
+    "status": "standing",
+    "shortBlurb": "Grade II listed mixed-use development with distinctive A-frame design. Stepped terraces of housing above retail precinct. Refurbished in 2006 with cream paint added to concrete.",
+    "tags": ["Grade II Listed", "Mixed Use", "Shopping", "Bloomsbury", "Refurbished"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Brunswick_Centre",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Brunswick_Centre"
+      }
+    ]
+  },
+  {
+    "id": "dawsons_heights",
+    "name": "Dawson's Heights",
+    "area": "East Dulwich",
+    "lat": 51.4550,
+    "lng": -0.0660,
+    "type": "housing",
+    "year": 1972,
+    "architect": "Kate Macintosh",
+    "status": "standing",
+    "shortBlurb": "Hilltop housing estate designed by one of few prominent women architects of the era. Two ziggurat blocks nicknamed 'the San Gimignano of South London' for their tower-like profile.",
+    "tags": ["Housing Estate", "Ziggurat", "South London", "Woman Architect", "Hilltop"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Dawson%27s_Heights",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dawson%27s_Heights"
+      }
+    ]
+  },
+  {
+    "id": "ministry_of_justice",
+    "name": "102 Petty France",
+    "area": "Westminster",
+    "lat": 51.499927,
+    "lng": -0.134778,
+    "type": "government",
+    "year": 1976,
+    "architect": "Basil Spence",
+    "status": "standing",
+    "shortBlurb": "A 14-storey Brutalist government office block in Westminster, London, completed in 1976. A massive raw-concrete slab that fills an entire city block overlooking St James's Park.",
+    "tags": ["Ministry of Justice", "Government", "Westminster", "Fitzroy Robinson & Partners", "Basil Spence"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:102_Petty_France",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/102_Petty_France"
+      }
+    ]
+  },
+  {
+    "id": "ashington_house",
+    "name": "Ashington House",
+    "area": "Bethnal Green",
+    "lat": 51.523205,
+    "lng": -0.058840,
+    "type": "housing",
+    "year": 1971,
+    "architect": "Alina and Noel Moffett",
+    "status": "standing",
+    "shortBlurb": "Six-story residential building comprising of 45 flats and maisonettes, stacked in modular clusters at varying floor levels. Design inspired by the interlocking basalt columns of Giants Causeway in Northern Ireland.",
+    "tags": ["Bethnal Green", "Housing", "Residential", "Alina & Noel Moffett"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Ashington_House_(6993699025).jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Heartbrut",
+        "url": "https://heartbrut.com/ashingtonhouse/"
+      }
+    ]
+  }
+]
