@@ -323,7 +323,9 @@
         "label": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/102_Petty_France"
       }
-    ]
+    ],
+    "image": "/buildings/ministry_of_justice.webp",
+    "imageAlt": "102 Petty France by Basil Spence. A government office block in Westminster, London."
   },
   {
     "id": "ashington_house",
@@ -349,6 +351,8 @@
         "label": "Heartbrut",
         "url": "https://heartbrut.com/ashingtonhouse/"
       }
-    ]
+    ],
+    "image": "/buildings/ashington_house.webp",
+    "imageAlt": "Ashington House by Alina & Noel Moffett. A residential building in Bethnal Green, London."
   }
 ]
