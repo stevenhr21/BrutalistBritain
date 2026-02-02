@@ -11,6 +11,7 @@ import {
   filterBuildings,
   getBuildingById,
 } from "@/lib/buildings";
+import KoFiButton from "@/components/KoFiWidget";
 import type { Building, BuildingType, BuildingStatus, FilterState } from "@/lib/types";
 
 function MapPageContent() {
@@ -266,6 +267,9 @@ function MapPageContent() {
           isMobile={true}
         />
       </div>
+
+      {/* Ko-Fi Support Button - Floating */}
+      <KoFiButton variant="floating" />
 
       <style jsx>{`
         @media (max-width: 900px) {

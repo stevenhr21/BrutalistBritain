@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getAllCollections } from "@/lib/buildings";
+import KoFiButton from "@/components/KoFiWidget";
 
 // TODO: Replace with your actual GitHub repo URL
 const GITHUB_ISSUE_URL = "https://github.com/YOUR_USER/YOUR_REPO/issues/new/choose";
@@ -66,6 +67,11 @@ export default function HomePage() {
                 </Link>
               ))}
             </div>
+          </div>
+
+          {/* Ko-Fi Support Button */}
+          <div style={{ marginTop: "1.5rem" }}>
+            <KoFiButton variant="inline" />
           </div>
         </div>
       </section>

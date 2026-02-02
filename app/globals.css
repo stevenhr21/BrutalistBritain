@@ -760,9 +760,7 @@ a:hover {
 
 /* ==========================================
    MOBILE: Map Header Strip Adjustments
-   ========================================== */
-
-@media (max-width: 900px) {
+   ========================================== */@media (max-width: 900px) {
   .bb-map-header {
     /* Add left padding to make room for menu button */
     padding-left: 56px !important;
@@ -931,5 +929,97 @@ a:hover {
     padding-top: env(safe-area-inset-top, 0);
     padding-bottom: env(safe-area-inset-bottom, 0);
     padding-left: env(safe-area-inset-left, 0);
+  }
+}
+
+/* ==========================================
+   KO-FI SUPPORT BUTTONS
+   ========================================== */
+
+/* Inline Ko-Fi button (for homepage) */
+.bb-kofi-inline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.625rem 1.25rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background-color: #323842;
+  color: #fff;
+  border: 2px solid #323842;
+  text-decoration: none;
+  transition: background-color 0.15s, border-color 0.15s, transform 0.1s;
+}
+
+.bb-kofi-inline:hover {
+  background-color: var(--bb-accent);
+  border-color: var(--bb-accent);
+  color: #fff;
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 var(--bb-ink);
+}
+
+.bb-kofi-inline:active {
+  transform: translate(0, 0);
+  box-shadow: none;
+}
+
+/* Floating Ko-Fi button (for map page) */
+.bb-kofi-floating {
+  position: fixed;
+  bottom: 32px;
+  right: 12px;
+  z-index: 1000;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0.875rem;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  background-color: #323842;
+  color: #fff;
+  border: 2px solid var(--bb-ink);
+  text-decoration: none;
+  box-shadow: 3px 3px 0 var(--bb-ink);
+  transition: background-color 0.15s, transform 0.1s, box-shadow 0.1s;
+}
+
+.bb-kofi-floating:hover {
+  background-color: var(--bb-accent);
+  color: #fff;
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0 var(--bb-ink);
+}
+
+.bb-kofi-floating:active {
+  transform: translate(0, 0);
+  box-shadow: 2px 2px 0 var(--bb-ink);
+}
+
+/* Mobile adjustments for Ko-Fi buttons */
+@media (max-width: 900px) {
+  .bb-kofi-floating {
+    bottom: 28px;
+    right: 10px;
+    padding: 0.4rem 0.7rem;
+    font-size: 0.6rem;
+  }
+  
+  .bb-kofi-inline {
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+  }
+}
+
+/* Ensure floating button stays above mobile sheet but below it when open */
+@media (max-width: 900px) {
+  .bb-kofi-floating {
+    z-index: 999;
   }
 }
