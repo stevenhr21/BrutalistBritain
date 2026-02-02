@@ -211,7 +211,9 @@
         "label": "RCP",
         "url": "https://www.rcp.ac.uk/"
       }
-    ]
+    ],
+    "image": "/buildings/royal_college_of_physicians.webp",
+    "imageAlt": "Royal College of Physicians by Denys Lasdun. A medical institution in Regent's Park, London."
   },
   {
     "id": "keeling_house",
@@ -237,7 +239,9 @@
         "label": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Keeling_House"
       }
-    ]
+    ],
+    "image": "/buildings/keeling_house.webp",
+    "imageAlt": "Keeling House by Denys Lasdun. A cluster of four interconnected towers in Bethnal Green, London."
   },
   {
     "id": "brunswick_centre",
@@ -263,7 +267,9 @@
         "label": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Brunswick_Centre"
       }
-    ]
+    ],
+    "image": "/buildings/brunswick_centre.webp",
+    "imageAlt": "Brunswick Centre by Patrick Hodgkinson. A mixed-use development in Bloomsbury, London."
   },
   {
     "id": "dawsons_heights",
