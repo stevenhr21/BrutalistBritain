@@ -1004,22 +1004,17 @@ a:hover {
 
 /* Mobile adjustments for Ko-Fi buttons */
 @media (max-width: 900px) {
+  /* On mobile, always position at bottom right since drawer is a bottom sheet */
   .bb-kofi-floating {
-    bottom: 28px;
-    right: 10px;
+    bottom: 28px !important;
+    right: 10px !important;
     padding: 0.4rem 0.7rem;
     font-size: 0.6rem;
+    z-index: 999;
   }
   
   .bb-kofi-inline {
     padding: 0.5rem 1rem;
     font-size: 0.7rem;
-  }
-}
-
-/* Ensure floating button stays above mobile sheet but below it when open */
-@media (max-width: 900px) {
-  .bb-kofi-floating {
-    z-index: 999;
   }
 }

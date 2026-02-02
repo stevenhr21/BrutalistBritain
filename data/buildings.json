@@ -466,5 +466,33 @@
     ],
     "image": "/buildings/weston_rise_estate.webp",
     "imageAlt": "Weston Rise Estate by Howell, Killick, Patridge & Amis. A housing estate in Islington, England."
+  },
+  {
+    "id": "embassy_czech_republic",
+    "name": "Embassy of the Czech Republic",
+    "area": "Islington",
+    "lat": 51.509387,
+    "lng": -0.193513,
+    "type": "civic",
+    "year": 1965,
+    "architect": "Jiri Kroha, Karel Filsak, and Josef Kotas",
+    "status": "standing",
+    "shortBlurb": "The Embassy of the Czech Republic is a Brutalist building in London, England. It is a 14-storey building with a flat roof and a concrete facade. It is one of the few remaining Brutalist buildings in London.",
+    "tags": ["Embassy of the Czech Republic", "London", "Jiri Kroha, Karel Filsak, and Josef Kotas", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Czech_Embassy,_London",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Embassy_of_the_Czech_Republic,_London"
+      }
+    ],
+    "image": "/buildings/embassy_czech_republic.webp",
+    "imageAlt": "The Embassy of the Czech Republic by Jiri Kroha, Karel Filsak, and Josef Kotas. A Brutalist building in London, England."
   }
 ]

@@ -269,7 +269,7 @@ function MapPageContent() {
       </div>
 
       {/* Ko-Fi Support Button - Floating */}
-      <KoFiButton variant="floating" />
+      <KoFiButton variant="floating" drawerOpen={!!selectedBuilding} />
 
       <style jsx>{`
         @media (max-width: 900px) {

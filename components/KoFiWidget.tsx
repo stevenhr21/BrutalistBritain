@@ -1,5 +1,6 @@
 interface KoFiButtonProps {
   variant?: "inline" | "floating";
+  drawerOpen?: boolean;
 }
 
 const KoFiIcon = () => (
@@ -15,7 +16,7 @@ const KoFiIcon = () => (
   </svg>
 );
 
-export default function KoFiButton({ variant = "inline" }: KoFiButtonProps) {
+export default function KoFiButton({ variant = "inline", drawerOpen = false }: KoFiButtonProps) {
   const kofiUrl = "https://ko-fi.com/brutalistbritain";
 
   const baseStyles: React.CSSProperties = {
@@ -35,15 +36,19 @@ export default function KoFiButton({ variant = "inline" }: KoFiButtonProps) {
   };
 
   if (variant === "floating") {
+    // When drawer is open (380px wide), shift button left to stay in map area
+    const rightPosition = drawerOpen ? "392px" : "12px";
+    
     const floatingStyles: React.CSSProperties = {
       ...baseStyles,
       position: "fixed",
       bottom: "32px",
-      right: "12px",
+      right: rightPosition,
       zIndex: 1000,
       padding: "8px 14px",
       fontSize: "0.7rem",
       boxShadow: "3px 3px 0 #0B0B0B",
+      transition: "right 0.2s ease",
     };
 
     return (
@@ -52,6 +57,7 @@ export default function KoFiButton({ variant = "inline" }: KoFiButtonProps) {
         target="_blank"
         rel="noopener noreferrer"
         style={floatingStyles}
+        className="bb-kofi-floating"
         aria-label="Support me on Ko-fi"
       >
         <KoFiIcon />
