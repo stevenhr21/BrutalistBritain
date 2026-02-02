@@ -3,17 +3,17 @@ import "leaflet/dist/leaflet.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Brutalist Britain — London's Concrete Landmarks",
+  title: "Brutalist Britain — Britain's Concrete Landmarks",
   description: "Discover London's brutalist architecture. Explore concrete landmarks, housing estates, and civic monuments through an interactive map.",
   openGraph: {
-    title: "Brutalist Britain — London's Concrete Landmarks",
+    title: "Brutalist Britain — Britain's Concrete Landmarks",
     description: "Discover London's brutalist architecture. Explore concrete landmarks, housing estates, and civic monuments through an interactive map.",
     type: "website",
     locale: "en_GB",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Brutalist Britain — London's Concrete Landmarks",
+    title: "Brutalist Britain — Britain's Concrete Landmarks",
     description: "Discover London's brutalist architecture through an interactive map.",
   },
 };

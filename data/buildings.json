@@ -295,7 +295,9 @@
         "label": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Dawson%27s_Heights"
       }
-    ]
+    ],
+    "image": "/buildings/dawsons_heights.webp",
+    "imageAlt": "Dawson's Heights by Kate Macintosh. A housing estate in East Dulwich, London."
   },
   {
     "id": "ministry_of_justice",
