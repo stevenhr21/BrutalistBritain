@@ -354,5 +354,33 @@
     ],
     "image": "/buildings/ashington_house.webp",
     "imageAlt": "Ashington House by Alina & Noel Moffett. A residential building in Bethnal Green, London."
+  },
+  {
+    "id": "lambeth_towers",
+    "name": "Lambeth Towers",
+    "area": "Lambeth",
+    "lat": 51.523205,
+    "lng": -0.058840,
+    "type": "housing",
+    "year": 1972,
+    "architect": "George Finch",
+    "status": "standing",
+    "shortBlurb": "An irregular arrangement of three blocks and two connecting spaces, each of varying heights. The towers are a series of interlocking concrete blocks that form a continuous facade. The blocks are stacked in a series of terraces, each of varying heights. The towers are a series of interlocking concrete blocks that form a continuous facade. The blocks are stacked in a series of terraces, each of varying heights.",
+    "tags": ["Lambeth", "Housing", "Residential", "George Finch"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Lambeth_Towers",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Brutalist Constructions",
+        "url": "https://brutalistconstructions.com/2016/02/29/lambeth-towers-london/"
+      }
+    ],
+    "image": "/buildings/lambeth_towers.webp",
+    "imageAlt": "Lambeth Towers by George Finch. A series of interlocking concrete blocks that form a continuous facade."
   }
 ]
