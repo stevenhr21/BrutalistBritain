@@ -382,5 +382,33 @@
     ],
     "image": "/buildings/lambeth_towers.webp",
     "imageAlt": "Lambeth Towers by George Finch. A series of interlocking concrete blocks that form a continuous facade."
+  },
+  {
+    "id": "salters_hall",
+    "name": "Salters Hall",
+    "area": "City of London",
+    "lat": 51.518175,
+    "lng": -0.092169,
+    "type": "other",
+    "year": 1976,
+    "architect": "Sir Basil Spence",
+    "status": "standing",
+    "shortBlurb": "Salters Hall is a Brutalist building in the City of London, England. It is a 14-storey building with a flat roof and a concrete facade. It is one of the few remaining Brutalist buildings in the City of London.",
+    "tags": ["Salters Hall", "City of London", "Sir Basil Spence", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Salters%27_Hall,_London_1_2025-06-21.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Worshipful_Company_of_Salters"
+      }
+    ],
+    "image": "/buildings/salters_hall.webp",
+    "imageAlt": "Salters Hall by Sir Basil Spence. A Brutalist building in the City of London, England."
   }
 ]
