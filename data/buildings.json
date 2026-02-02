@@ -410,5 +410,61 @@
     ],
     "image": "/buildings/salters_hall.webp",
     "imageAlt": "Salters Hall by Sir Basil Spence. A Brutalist building in the City of London, England."
+  },
+  {
+    "id": "ibm_building",
+    "name": "IBM Building",
+    "area": "Southbank",
+    "lat": 51.507407,
+    "lng": -0.112503,
+    "type": "commercial",
+    "year": 1984,
+    "architect": "Denys Lasdun",
+    "status": "standing",
+    "shortBlurb": "IBM Building is a Brutalist building in the Southbank, England. It is a 14-storey building with a flat roof and a concrete facade. It is one of the few remaining Brutalist buildings in the Southbank.",
+    "tags": ["IBM Building", "Southbank", "Denys Lasdun", "76 South Bank"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:IBM_Building_-_geograph.org.uk_-_7435220.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Allford Hall Monaghan Morris",
+        "url": "https://www.ahmm.co.uk/projects/office/76-southbank/"
+      }
+    ],
+    "image": "/buildings/ibm_building.webp",
+    "imageAlt": "IBM Building by Denys Lasdun. A Brutalist building in the Southbank, England."
+  },
+  {
+    "id": "weston_rise_estate",
+    "name": "Weston Rise Estate",
+    "area": "Islington",
+    "lat": 51.530625,
+    "lng": -0.115627,
+    "type": "housing",
+    "year": 1967,
+    "architect": "Howell, Killick, Patridge & Amis",
+    "status": "standing",
+    "shortBlurb": "Weston Rise Estate is a housing estate in Islington, England. It is a series of interlocking concrete blocks that form a continuous facade. The blocks are stacked in a series of terraces, each of varying heights.",
+    "tags": ["Weston Rise Estate", "Islington", "Howell, Killick, Patridge & Amis", "Housing"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Weston_Rise_Estate,_Weston_Rise_-_geograph.org.uk_-_2778899.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "The Brutalist",
+        "url": "https://www.thebrutalist.co.uk/howell-killick-partridge-amis/the-weston-rise-estate/"
+      }
+    ],
+    "image": "/buildings/weston_rise_estate.webp",
+    "imageAlt": "Weston Rise Estate by Howell, Killick, Patridge & Amis. A housing estate in Islington, England."
   }
 ]
