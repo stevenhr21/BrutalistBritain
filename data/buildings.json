@@ -550,5 +550,117 @@
     ],
     "image": "/buildings/south_norwood_library.webp",
     "imageAlt": "South Norwood Library by Hugh Lea. A Brutalist building in South Norwood, England."
+  },
+  {
+    "id": "baynard_house",
+    "name": "Baynard House",
+    "area": "City of London",
+    "lat": 51.511610,
+    "lng": -0.100610,
+    "type": "other",
+    "year": 1979,
+    "architect": "William Holford",
+    "status": "standing",
+    "shortBlurb": "Baynard House is a Brutalist building in the City of London, England. It is a 14-storey building with a flat roof and a concrete facade. It is one of the few remaining Brutalist buildings in the City of London.",
+    "tags": ["Baynard House", "City of London", "William Holford", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Baynard_House",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Baynard_House,_London"
+      }
+    ],
+    "image": "/buildings/baynard_house.webp",
+    "imageAlt": "Baynard House by William Holford. A Brutalist building in the City of London, England."
+  },
+  {
+    "id": "dunboyne_road_estate",
+    "name": "Dunboyne Road Estate",
+    "area": "Gospel Oak",
+    "lat": 51.552576,
+    "lng": -0.158663,
+    "type": "housing",
+    "year": 1967,
+    "architect": "Neave Brown",
+    "status": "standing",
+    "shortBlurb": "Dunboyne Road Estate is a housing estate in Gospel Oak, England. It is a series of interlocking concrete blocks that form a continuous facade. The blocks are stacked in a series of terraces, each of varying heights.",
+    "tags": ["Dunboyne Road Estate", "Gospel Oak", "Neave Brown", "Housing"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Dunboyne_Road_Estate",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dunboyne_Road_Estate"
+      }
+    ],
+    "image": "/buildings/dunboyne_road_estate.webp",
+    "imageAlt": "Dunboyne Road Estate by Neave Brown. A housing estate in Gospel Oak, England."
+  },
+  {
+    "id": "glenkerry_house",
+    "name": "Glenkerry House",
+    "area": "Poplar",
+    "lat": 51.514022,
+    "lng": -0.010729,
+    "type": "housing",
+    "year": 1977,
+    "architect": "Ernő Goldfinger",
+    "status": "standing",
+    "shortBlurb": "Glenkerry House is a Brutalist building in Poplar, England. It is a 14-storey building with a flat roof and a concrete facade. It is one of the few remaining Brutalist buildings in Poplar.",
+    "tags": ["Glenkerry House", "Poplar", "Ernő Goldfinger", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Glenkerry_House",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Glenkerry_House"
+      }
+    ],
+    "image": "/buildings/dunboyne_road_estate.webp",
+    "imageAlt": "Dunboyne Road Estate by Neave Brown. A housing estate in Gospel Oak, England."
+  },
+  {
+    "id": "institute_of_education",
+    "name": "UCL Institute of Education",
+    "area": "Camden",
+    "lat": 51.523064,
+    "lng": -0.128033,
+    "type": "education",
+    "year": 1975,
+    "architect": "Denys Lasdun",
+    "status": "standing",
+    "shortBlurb": "UCL Institute of Education is a Brutalist building in Camden, England. It is a 14-storey building with a flat roof and a concrete facade. It is one of the few remaining Brutalist buildings in Camden.",
+    "tags": ["UCL Institute of Education", "Camden", "Denys Lasdun", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Institute_of_Education_building",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Institute_of_Education_building"
+      }
+    ],
+    "image": "/buildings/institute_of_education.webp",
+    "imageAlt": "UCL Institute of Education by Denys Lasdun. A Brutalist building in Camden, England."
   }
 ]

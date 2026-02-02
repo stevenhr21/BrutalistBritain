@@ -1,32 +1,8 @@
 [
   {
-    "id": "southbank_icons",
-    "name": "SOUTHBANK ICONS",
-    "description": "Concrete culture on the river.",
-    "buildingIds": ["national_theatre", "hayward_gallery"]
-  },
-  {
-    "id": "tower_legends",
-    "name": "TOWER LEGENDS",
-    "description": "The skyline heavyweights.",
-    "buildingIds": ["trellick_tower", "balfron_tower", "keeling_house"]
-  },
-  {
-    "id": "megastructures",
-    "name": "MEGASTRUCTURES",
-    "description": "Big systems, bigger presence.",
-    "buildingIds": ["barbican_estate", "brunswick_centre"]
-  },
-  {
-    "id": "estates",
-    "name": "ESTATES",
-    "description": "Housing as urban form.",
-    "buildingIds": ["barbican_estate", "alexandra_road_estate", "dawsons_heights", "ashington_house"]
-  },
-  {
-    "id": "civic_concrete",
-    "name": "CIVIC CONCRETE",
-    "description": "Institutions, made monumental.",
-    "buildingIds": ["national_theatre", "hayward_gallery", "royal_college_of_physicians"]
+    "id": "London",
+    "name": "LONDON",
+    "description": "Concrete culture in the capital.",
+    "buildingIds": ["alexandra_road_estate", "ashington_house", "balfron_tower", "baynard_house", "barbican_estate","brunswick_centre", "dawsons_heights", "dunboyne_road_estate", "embassy_czech_republic", "glenkerry_house", "hayward_gallery", "ibm_building", "keeling_house", "lambeth_towers","national_theatre", "trellick_tower", "ministry_of_justice", "national_theatre", "royal_college_of_physicians", "salters_hall", "soas_library", "south_norwood_library", "trellick_tower", "weston_rise_estate", "institute_of_education"]
   }
 ]
