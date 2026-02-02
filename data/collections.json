@@ -6,9 +6,69 @@
     "buildingIds": ["alexandra_road_estate", "ashington_house", "balfron_tower", "baynard_house", "barbican_estate","brunswick_centre", "dawsons_heights", "dunboyne_road_estate", "embassy_czech_republic", "glenkerry_house", "hayward_gallery", "ibm_building", "keeling_house", "lambeth_towers","national_theatre", "trellick_tower", "ministry_of_justice", "national_theatre", "royal_college_of_physicians", "salters_hall", "soas_library", "south_norwood_library", "trellick_tower", "weston_rise_estate", "institute_of_education"]
   },
 {
+    "id": "North West",
+    "name": "NORTH WEST",
+    "description": "Built tough. Weathered harder.",
+    "buildingIds": ["example_estate"]
+  },
+{
     "id": "North East",
     "name": "NORTH EAST",
-    "description": "Built tough. Weathered harder.",
+    "description": "Monumental Modernism of the Industrial Heartland.",
+    "buildingIds": ["example_estate"]
+  },
+{
+    "id": "Yorkshire and the Humber",
+    "name": "YORKSHIRE AND THE HUMBER",
+    "description": "If it's worth doing, it's worth overdoing.",
+    "buildingIds": ["example_estate"]
+  },
+{
+    "id": "East Midlands",
+    "name": "EAST MIDLANDS",
+    "description": "Quiet Radicalism in Concrete Form.",
+    "buildingIds": ["example_estate"]
+  },
+{
+    "id": "West Midlands",
+    "name": "WEST MIDLANDS",
+    "description": "Concrete that meant business.",
+    "buildingIds": ["example_estate"]
+  },
+{
+    "id": "East of England",
+    "name": "EAST OF ENGLAND",
+    "description": "Modernism on the margins.",
+    "buildingIds": ["example_estate"]
+  },
+{
+    "id": "South East",
+    "name": "SOUTH EAST",
+    "description": "Concrete beyond the capital.",
+    "buildingIds": ["example_estate"]
+  },
+{
+    "id": "South West",
+    "name": "SOUTH WEST",
+    "description": "Heavy Buildings, Light Surroundings.",
+    "buildingIds": ["example_estate"]
+  },
+{
+    "id": "Wales",
+    "name": "WALES",
+    "description": "Civic Brutalism and Social Purpose.",
+    "buildingIds": ["example_estate"]
+  },
+{
+    "id": "Scotland",
+    "name": "SCOTLAND",
+    "description": "Not Shy, Not Small, Not Apologetic.",
+    "buildingIds": ["example_estate"]
+  },
+{
+    "id": "Northern Ireland",
+    "name": "NORTHERN IRELAND",
+    "description": "Concrete in a Divided Landscape.",
     "buildingIds": ["example_estate"]
   }
 ]
