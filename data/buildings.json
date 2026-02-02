@@ -494,5 +494,61 @@
     ],
     "image": "/buildings/embassy_czech_republic.webp",
     "imageAlt": "The Embassy of the Czech Republic by Jiri Kroha, Karel Filsak, and Josef Kotas. A Brutalist building in London, England."
+  },
+  {
+    "id": "soas_library",
+    "name": "SOAS Library",
+    "area": "Bloomsbury",
+    "lat": 51.521937,
+    "lng": -0.128840,
+    "type": "education",
+    "year": 1975,
+    "architect": "Denys Lasdun",
+    "status": "standing",
+    "shortBlurb": "SOAS Library is a Brutalist building in Bloomsbury, England. It is a 14-storey building with a flat roof and a concrete facade. It is one of the few remaining Brutalist buildings in Bloomsbury.",
+    "tags": ["SOAS Library", "SOAS", "University", "Lasdun", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:SOAS_Library",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/SOAS_University_of_London"
+      }
+    ],
+    "image": "/buildings/soas_library.webp",
+    "imageAlt": "SOAS Library by Denys Lasdun. A Brutalist building in Bloomsbury, England."
+  },
+  {
+    "id": "south_norwood_library",
+    "name": "South Norwood Library",
+    "area": "South Norwood",
+    "lat": 51.397343,
+    "lng": -0.078677,
+    "type": "civic",
+    "year": 1968,
+    "architect": "Hugh Lea",
+    "status": "standing",
+    "shortBlurb": "South Norwood Library is a Brutalist building in South Norwood, England. It is a 14-storey building with a flat roof and a concrete facade. It is one of the few remaining Brutalist buildings in South Norwood.",
+    "tags": ["South Norwood Library", "Library", "South London", "Hugh Lea"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:South_Norwood_Library",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/South_Norwood_Library"
+      }
+    ],
+    "image": "/buildings/south_norwood_library.webp",
+    "imageAlt": "South Norwood Library by Hugh Lea. A Brutalist building in South Norwood, England."
   }
 ]
