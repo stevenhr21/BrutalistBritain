@@ -662,5 +662,89 @@
     ],
     "image": "/buildings/institute_of_education.webp",
     "imageAlt": "UCL Institute of Education by Denys Lasdun. A Brutalist building in Camden, England."
+  },
+  {
+    "id": "brunel_lecture_centre",
+    "name": "Brunel University Lecture Centre",
+    "area": "Uxbridge",
+    "lat": 51.532849,
+    "lng": -0.472761,
+    "type": "education",
+    "year": 1971,
+    "architect": "Richard Sheppard, Robson and Partners, Stillman & Eastwick-Field",
+    "status": "standing",
+    "shortBlurb": "Brunel University Lecture Centre is a Brutalist building in Uxbridge, England. It is a 14-storey building with a flat roof and a concrete facade. It is one of the few remaining Brutalist buildings in Uxbridge.",
+    "tags": ["Brunel University Lecture Centre", "Uxbridge", "Richard Sheppard, Robson and Partners, Stillman & Eastwick-Field", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Brunel_University_lecture_centre",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Brunel_University_lecture_centre"
+      }
+    ],
+    "image": "/buildings/brunel_lecture_centre.webp",
+    "imageAlt": "Brunel University Lecture Centre by Richard Sheppard, Robson and Partners, Stillman & Eastwick-Field. A Brutalist building in Uxbridge, England."
+  },
+  {
+    "id": "sloman_library",
+    "name": "Albert Sloman Library",
+    "area": "Colchester",
+    "lat": 51.877254,
+    "lng": 0.946766,
+    "type": "education",
+    "year": 1967,
+    "architect": "Kenneth Capon",
+    "status": "standing",
+    "shortBlurb": "Albert Sloman Library is a Brutalist building in Colchester, England. It is a 14-storey building with a flat roof and a concrete facade. It is one of the few remaining Brutalist buildings in Colchester.",
+    "tags": ["Albert Sloman Library", "Colchester", "Kenneth Capon", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Albert_Sloman_Library",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/University_of_Essex"
+      }
+    ],
+    "image": "/buildings/sloman_library.webp",
+    "imageAlt": "Albert Sloman Library by Kenneth Capon. A Brutalist building in Colchester, England."
+  },
+  {
+    "id": "portsmouth_central_library",
+    "name": "Portsmouth Central Library",
+    "area": "Portsmouth",
+    "lat": 50.796647,
+    "lng": -1.091729,
+    "type": "civic",
+    "year": 1976,
+    "architect": "Ken Norrish",
+    "status": "standing",
+    "shortBlurb": "Portsmouth Central Library is a Brutalist building in Portsmouth, England. It is a 14-storey building with a flat roof and a concrete facade. It is one of the few remaining Brutalist buildings in Portsmouth.",
+    "tags": ["Portsmouth Central Library", "Portsmouth", "Ken Norrish", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Portsmouth_Central_Library",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portsmouth#Landmarks"
+      }
+    ],
+    "image": "/buildings/portsmouth_central_library.webp",
+    "imageAlt": "Portsmouth Central Library by Ken Norrish. A Brutalist building in Portsmouth, England."
   }
 ]

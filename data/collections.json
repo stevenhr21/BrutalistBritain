@@ -45,7 +45,7 @@
     "id": "South East",
     "name": "SOUTH EAST",
     "description": "Concrete beyond the capital.",
-    "buildingIds": ["example_estate"]
+    "buildingIds": ["sloman_library"]
   },
 {
     "id": "South West",

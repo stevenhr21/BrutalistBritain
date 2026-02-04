@@ -4,7 +4,15 @@ import buildingsData from '@/data/buildings.json';
 import collectionsData from '@/data/collections.json';
 
 export function getAllBuildings(): Building[] {
-  return buildingsData as Building[];
+  const buildings = buildingsData as Building[];
+  // Sort by year (earliest first) so map numbering reflects chronological order
+  // Buildings without a year are placed at the end
+  return buildings.slice().sort((a, b) => {
+    if (a.year === null && b.year === null) return 0;
+    if (a.year === null) return 1;
+    if (b.year === null) return -1;
+    return a.year - b.year;
+  });
 }
 
 export function getAllCollections(): Collection[] {
