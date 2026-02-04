@@ -39,13 +39,13 @@
     "id": "East of England",
     "name": "EAST OF ENGLAND",
     "description": "Modernism on the margins.",
-    "buildingIds": ["example_estate"]
+    "buildingIds": ["sloman_library"]
   },
 {
     "id": "South East",
     "name": "SOUTH EAST",
     "description": "Concrete beyond the capital.",
-    "buildingIds": ["sloman_library"]
+    "buildingIds": ["portsmouth_central_library"]
   },
 {
     "id": "South West",
