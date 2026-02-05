@@ -1054,5 +1054,89 @@
     ],
     "image": "/buildings/high_point.webp",
     "imageAlt": "High Point by John Brunton & Partners. A Brutalist building in Bradford, England."
+  },
+  {
+    "id": "pasmore_pavilion",
+    "name": "Pasmore Pavilion",
+    "area": "Peterlee",
+    "lat": 54.749902,
+    "lng": -1.345597,
+    "type": "other",
+    "year": 1969,
+    "architect": "Victor Pasmore",
+    "status": "standing",
+    "shortBlurb": "Pasmore Pavilion, also known as the Apollo Pavilion as a reference to the Apollo Space Program, is a work of public art made of reinforced concrete that was cast in situ.",
+    "tags": ["Pasmore Pavilion", "Peterlee", "Victor Pasmore", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Apollo_Pavilion",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Apollo_Pavilion"
+      }
+    ],
+    "image": "/buildings/pasmore_pavilion.webp",
+    "imageAlt": "Pasmore Pavilion by Victor Pasmore. A Brutalist building in Peterlee, England."
+  },
+  {
+    "id": "dunelm_house",
+    "name": "Dunelm House",
+    "area": "Durham",
+    "lat": 54.773316,
+    "lng": -1.571925,
+    "type": "education",
+    "year": 1966,
+    "architect": "Sir Ove Arup",
+    "status": "standing",
+    "shortBlurb": "Dunelm House is a Grade II listed building in Durham that belongs to Durham University and houses Durham Students' Union.",
+    "tags": ["Dunelm House", "Durham", "Sir Ove Arup", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Dunelm_House,_University_of_Durham",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dunelm_House"
+      }
+    ],
+    "image": "/buildings/dunelm_house.webp",
+    "imageAlt": "Dunelm House by Sir Ove Arup. A Brutalist building in Durham, England."
+  },
+  {
+    "id": "central_hall",
+    "name": "Central Hall (University of York)",
+    "area": "Durham",
+    "lat": 53.947043,
+    "lng": -1.052944,
+    "type": "education",
+    "year": 1968,
+    "architect": "John Speight",
+    "status": "standing",
+    "shortBlurb": "Central Hall, colloqially known as 'The Spaceship' is a building of the University of York. It is Grade II listed.",
+    "tags": ["Central Hall", "University of York", "John Speight", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Central_Hall,_University_of_York",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Central_Hall,_University_of_York"
+      }
+    ],
+    "image": "/buildings/central_hall.webp",
+    "imageAlt": "Central Hall by John Speight. A Brutalist building in York, England."
   }
 ]

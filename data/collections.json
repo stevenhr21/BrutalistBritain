@@ -15,13 +15,13 @@
     "id": "North East",
     "name": "NORTH EAST",
     "description": "Monumental Modernism of the Industrial Heartland.",
-    "buildingIds": ["example_estate"]
+    "buildingIds": ["pasmore_pavilion", "dunelm_house"]
   },
 {
     "id": "Yorkshire and the Humber",
     "name": "YORKSHIRE AND THE HUMBER",
     "description": "If it's worth doing, it's worth overdoing.",
-    "buildingIds": ["moore_street", "bank_house", "high_point"]
+    "buildingIds": ["moore_street", "bank_house", "high_point", "central_hall"]
   },
 {
     "id": "East Midlands",
