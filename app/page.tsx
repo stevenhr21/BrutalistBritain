@@ -73,6 +73,14 @@ export default function HomePage() {
           <div style={{ marginTop: "1.5rem" }}>
             <KoFiButton variant="inline" />
           </div>
+
+          {/* Contact Email */}
+          <p className="bb-mono" style={{ fontSize: "0.7rem", opacity: 0.6, marginTop: "1.5rem" }}>
+            You can contact me by email here:{" "}
+            <a href="mailto:brutalistbritainmap@gmail.com" style={{ textDecoration: "underline" }}>
+              brutalistbritainmap@gmail.com
+            </a>
+          </p>
         </div>
       </section>
 
