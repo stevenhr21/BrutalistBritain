@@ -64,11 +64,5 @@
     "name": "SCOTLAND",
     "description": "Not Shy, Not Small, Not Apologetic.",
     "buildingIds": ["example_estate"]
-  },
-{
-    "id": "Northern Ireland",
-    "name": "NORTHERN IRELAND",
-    "description": "Concrete in a Divided Landscape.",
-    "buildingIds": ["example_estate"]
   }
 ]
