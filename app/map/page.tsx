@@ -143,6 +143,7 @@ function MapPageContent() {
       >
         <Sidebar
           buildings={filteredBuildings}
+          allBuildings={allBuildings}
           collections={collections}
           search={search}
           selectedTypes={selectedTypes}

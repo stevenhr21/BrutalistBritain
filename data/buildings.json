@@ -886,5 +886,173 @@
     ],
     "image": "/buildings/cathays_park_two.webp",
     "imageAlt": "Cathays Park Two by Alex Gordon & Partners. A series of interlocking concrete blocks that form a continuous facade. The blocks are stacked in a series of terraces, each of varying heights."
+  },
+  {
+    "id": "university_of_east_anglia",
+    "name": "University of East Anglia",
+    "area": "Norwich",
+    "lat": 52.621523,
+    "lng": 1.237561,
+    "type": "education",
+    "year": 1963,
+    "architect": "Sir Denys Lasdun",
+    "status": "standing",
+    "shortBlurb": "University of East Anglia was built in the 1960s with ziggurat-like terraces with the student residences integrated into the topography.",
+    "tags": ["University of East Anglia", "Norwich", "Sir Denys Lasdun", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:The_Square,_University_of_East_Anglia",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/University_of_East_Anglia"
+      }
+    ],
+    "image": "/buildings/university_of_east_anglia.webp",
+    "imageAlt": "University of East Anglia by Sir Denys Lasdun. A Brutalist building in Norwich, England."
+  },
+  {
+    "id": "harvey_court",
+    "name": "Harvey Court (Gonville and Caius College)",
+    "area": "Cambridge",
+    "lat": 52.202462,
+    "lng": 0.110781,
+    "type": "education",
+    "year": 1962,
+    "architect": "Sir Leslie Martin",
+    "status": "standing",
+    "shortBlurb": "Harvey Court, completed in 1962, is a Grade II listed, award-winning, residential building for Gonville and Caius College.",
+    "tags": ["Harvey Court", "Cambridge", "Sir Leslie Martin", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Harvey_Court,_Gonville_and_Caius_College",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gonville_and_Caius_College,_Cambridge"
+      }
+    ],
+    "image": "/buildings/harvey_court.webp",
+    "imageAlt": "Harvey Court by Sir Leslie Martin. A Brutalist building in Cambridge, England."
+  },
+  {
+    "id": "moore_street",
+    "name": "Moore Street Electricity Substation",
+    "area": "Sheffield",
+    "lat": 53.374744,
+    "lng": -1.478452,
+    "type": "other",
+    "year": 1968,
+    "architect": "Jefferson Sheard",
+    "status": "standing",
+    "shortBlurb": "Moore Street electricity substation is an electrical substation in Sheffield, England and has been described as 'a shocking paroxysm of a building, an explosion in reinforced concrete, a bunker built with an aesthete's attention to detail, a building which is genuinely Brutalist in both senses of the term'",
+    "tags": ["Moore Street Electricity Substation", "Sheffield", "Jefferson Sheard", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Electricity_Substation,_Moore_Street,_Sheffield_(geograph_3884708).jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Moore_Street_electricity_substation"
+      }
+    ],
+    "image": "/buildings/moore_street.webp",
+    "imageAlt": "Moore Street Electricity Substation by Jefferson Sheard. A Brutalist building in Sheffield, England."
+  },
+  {
+    "id": "bank_house",
+    "name": "Bank House",
+    "area": "Leeds",
+    "lat": 53.797055,
+    "lng": -1.550781,
+    "type": "other",
+    "year": 1969,
+    "architect": "Building Design Partnership",
+    "status": "standing",
+    "shortBlurb": "Bank House is the former Bank of England regional headquarters in Leeds. Inverted ziggurat of in-situ reinforced concrete construction with grey Cornish granite and bronze cladding.",
+    "tags": ["Bank House", "Leeds", "Building Design Partnership", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Bank_House,_Leeds",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Listed_buildings_in_Leeds_(City_and_Hunslet_Ward_-_northern_area)"
+      }
+    ],
+    "image": "/buildings/bank_house.webp",
+    "imageAlt": "Bank House by Building Design Partnership. A Brutalist building in Leeds, England."
+  },
+  {
+    "id": "preston_bus_station",
+    "name": "Preston Bus Station",
+    "area": "Preston",
+    "lat": 53.761068,
+    "lng": -2.696242,
+    "type": "transport",
+    "year": 1969,
+    "architect": "Ove Arup & Partners",
+    "status": "standing",
+    "shortBlurb": "Preston Bus Station is the central bus station in the city of Preston. It was granted Grade II listed building status in September 2013.",
+    "tags": ["Preston Bus Station", "Preston", "Ove Arup & Partners", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Preston_bus_station",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Preston_bus_station"
+      }
+    ],
+    "image": "/buildings/preston_bus_station.webp",
+    "imageAlt": "Preston Bus Station by Ove Arup & Partners. A Brutalist building in Preston, England."
+  },
+  {
+    "id": "high_point",
+    "name": "High Point",
+    "area": "Bradford",
+    "lat": 53.795531,
+    "lng": -1.758550,
+    "type": "other",
+    "year": 1969,
+    "architect": "John Brunton & Partners",
+    "status": "standing",
+    "shortBlurb": "High Point in Bradford, formerly known as the Yorkshire Building Society Building stands tall in Bradford's predominantly Victorian city center.",
+    "tags": ["High Point", "Bradford", "John Brunton & Partners", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:High_Point,_Bradford",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/High_Point,_Bradford"
+      }
+    ],
+    "image": "/buildings/high_point.webp",
+    "imageAlt": "High Point by John Brunton & Partners. A Brutalist building in Bradford, England."
   }
 ]

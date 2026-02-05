@@ -9,6 +9,7 @@ import BuildingCard from "./BuildingCard";
 
 interface SidebarProps {
   buildings: Building[];
+  allBuildings: Building[];
   collections: Collection[];
   search: string;
   selectedTypes: BuildingType[];
@@ -26,6 +27,7 @@ interface SidebarProps {
 
 export default function Sidebar({
   buildings,
+  allBuildings,
   collections,
   search,
   selectedTypes,
@@ -40,6 +42,10 @@ export default function Sidebar({
   onSelectCollection,
   onSelectBuilding,
 }: SidebarProps) {
+  // Create a Set of all building IDs for collection count calculation
+  const allBuildingIds = useMemo(() => {
+    return new Set(allBuildings.map((b) => b.id));
+  }, [allBuildings]);
   const hasActiveFilters = useMemo(() => {
     return (
       selectedTypes.length > 0 ||
@@ -140,6 +146,8 @@ export default function Sidebar({
             collections={collections}
             selectedCollectionId={selectedCollectionId}
             onSelectCollection={onSelectCollection}
+            allBuildingIds={allBuildingIds}
+            totalBuildingCount={allBuildings.length}
           />
         </div>
 

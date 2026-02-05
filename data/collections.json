@@ -9,7 +9,7 @@
     "id": "North West",
     "name": "NORTH WEST",
     "description": "Built tough. Weathered harder.",
-    "buildingIds": ["example_estate"]
+    "buildingIds": ["preston_bus_station"]
   },
 {
     "id": "North East",
@@ -21,7 +21,7 @@
     "id": "Yorkshire and the Humber",
     "name": "YORKSHIRE AND THE HUMBER",
     "description": "If it's worth doing, it's worth overdoing.",
-    "buildingIds": ["example_estate"]
+    "buildingIds": ["moore_street", "bank_house", "high_point"]
   },
 {
     "id": "East Midlands",
@@ -39,7 +39,7 @@
     "id": "East of England",
     "name": "EAST OF ENGLAND",
     "description": "Modernism on the margins.",
-    "buildingIds": ["sloman_library"]
+    "buildingIds": ["sloman_library", "university_of_east_anglia", "harvey_court"]
   },
 {
     "id": "South East",
