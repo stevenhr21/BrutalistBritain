@@ -57,7 +57,7 @@
     "id": "Wales",
     "name": "WALES",
     "description": "Civic Brutalism and Social Purpose.",
-    "buildingIds": ["example_estate"]
+    "buildingIds": ["cathays_park_two"]
   },
 {
     "id": "Scotland",
