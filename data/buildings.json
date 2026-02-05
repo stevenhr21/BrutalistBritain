@@ -746,5 +746,117 @@
     ],
     "image": "/buildings/portsmouth_central_library.webp",
     "imageAlt": "Portsmouth Central Library by Ken Norrish. A Brutalist building in Portsmouth, England."
+  },
+  {
+    "id": "milford_towers",
+    "name": "Milford Towers",
+    "area": "Catford",
+    "lat": 51.446836,
+    "lng": -0.022166,
+    "type": "housing",
+    "year": 1969,
+    "architect": "Owen Luder",
+    "status": "standing",
+    "shortBlurb": "Milford Towers are a pair of 12-storey residential towers in Lewisham, England. They are a series of interlocking concrete blocks that form a continuous facade. The blocks are stacked in a series of terraces, each of varying heights.",
+    "tags": ["Milford Towers", "Lewisham", "Owen Luder", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Milford_Tower,_Catford_-_geograph.org.uk_-_315854.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Lewisham Council",
+        "url": "https://lewisham.gov.uk/inmyarea/regeneration/catford-regeneration/milford-towers-refurbishment-and-future-plans"
+      }
+    ],
+    "image": "/buildings/milford_towers.webp",
+    "imageAlt": "Milford Towers by Owen Luder. A pair of 12-storey residential towers in Lewisham, England."
+  },
+  {
+    "id": "st_giles_hotel",
+    "name": "St Giles Hotel",
+    "area": "Bloomsbury",
+    "lat": 51.517446,
+    "lng": -0.130503,
+    "type": "commercial",
+    "year": 1977,
+    "architect": "Fitzroy Robinson & Partners",
+    "status": "standing",
+    "shortBlurb": "St Giles Hotel is a Brutalist building in Bloomsbury, England. It is a 14-storey building with a flat roof and a concrete facade. It is one of the few remaining Brutalist buildings in Bloomsbury.",
+    "tags": ["St Giles Hotel", "Bloomsbury", "Fitzroy Robinson & Partners", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:St._Giles_Hotel,_London",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "St Giles Hotel",
+        "url": "https://www.stgileshotels.com/soho-london/"
+      }
+    ],
+    "image": "/buildings/st_giles_hotel.webp",
+    "imageAlt": "St Giles Hotel by Fitzroy Robinson & Partners. A Brutalist building in Bloomsbury, England."
+  },
+  {
+    "id": "minories_car_park",
+    "name": "Minories Car Park",
+    "area": "Tower Hamlets",
+    "lat": 51.510400,
+    "lng": -0.073425,
+    "type": "commercial",
+    "year": 1969,
+    "architect": "R.L. Moorcraft",
+    "status": "standing",
+    "shortBlurb": "Minories Car Park is a Brutalist car park in Tower Hamlets, England. It is a 14-storey building with a flat roof and a concrete facade. It is one of the few remaining Brutalist buildings in Tower Hamlets.",
+    "tags": ["Minories Car Park", "Tower Hamlets", "R.L. Moorcraft", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Brutalist_Minories_Car_Park,_London_E1.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "City of London",
+        "url": "https://www.cityoflondon.gov.uk/services/parking/car-parks/minories-car-park"
+      }
+    ],
+    "image": "/buildings/minories_car_park.webp",
+    "imageAlt": "Minories Car Park by R.L. Moorcraft. A Brutalist car park in Tower Hamlets, England."
+  },
+  {
+    "id": "macadam_building",
+    "name": "Macadam Building",
+    "area": "Westminster",
+    "lat": 51.511238,
+    "lng": -0.115297,
+    "type": "education",
+    "year": 1975,
+    "architect": "Troup, Steele & Scott",
+    "status": "standing",
+    "shortBlurb": "Macadam Building is a Brutalist building in Westminster, England. It is a 14-storey building with a flat roof and a concrete facade. It is one of the few remaining Brutalist buildings in Westminster.",
+    "tags": ["Macadam Building", "Westminster", "Troup, Steele & Scott", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Macadam_Building,_King%27s_College_London",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Strand_Campus"
+      }
+    ],
+    "image": "/buildings/macadam_building.webp",
+    "imageAlt": "Macadam Building by Troup, Steele & Scott. A Brutalist building in Westminster, England."
   }
 ]

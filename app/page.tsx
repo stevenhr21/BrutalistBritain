@@ -3,7 +3,7 @@ import { getAllCollections } from "@/lib/buildings";
 import KoFiButton from "@/components/KoFiWidget";
 
 // TODO: Replace with your actual GitHub repo URL
-const GITHUB_ISSUE_URL = "https://github.com/YOUR_USER/YOUR_REPO/issues/new/choose";
+const GITHUB_ISSUE_URL = "https://github.com/stevenhr21/brutalistbritain/issues/new?template=suggest-building.yml";
 
 export default function HomePage() {
   const collections = getAllCollections();
