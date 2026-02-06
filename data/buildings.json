@@ -1138,5 +1138,61 @@
     ],
     "image": "/buildings/central_hall.webp",
     "imageAlt": "Central Hall by John Speight. A Brutalist building in York, England."
+  },
+  {
+    "id": "eros_house",
+    "name": "Eros House",
+    "area": "Catford",
+    "lat": 51.445743,
+    "lng": -0.018784,
+    "type": "housing",
+    "year": 1963,
+    "architect": "Owen Luder",
+    "status": "standing",
+    "shortBlurb": "Eros House is a Brutalist building estate in Catford. It was part of a larger urban renewal project that also included a shipping centre.",
+    "tags": ["Eros House", "Catford", "Owen Luder", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Eros_House",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Eros_House"
+      }
+    ],
+    "image": "/buildings/eros_house.webp",
+    "imageAlt": "Eros House by Owen Luder. A Brutalist building estate in Catford, England."
+  },
+  {
+    "id": "hayes_telephone_exchange",
+    "name": "Hayes Telephone Exchange",
+    "area": "Hayes",
+    "lat": 51.507864,
+    "lng": -0.417816,
+    "type": "other",
+    "year": 1973,
+    "architect": "Gray Associates & Property",
+    "status": "standing",
+    "shortBlurb": "Hayes Telephone Exchange features two linked blocks designed with expressive, pre-cast concrete units. Featuring prominent U-shaped, air-extracting vents and is recognised for its design.",
+    "tags": ["Hayes Telephone Exchange", "Hayes", "Gray Associates & Property", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Telephone_exchange,_Hayes_-_geograph.org.uk_-_4127457.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_telephone_exchanges_in_London"
+      }
+    ],
+    "image": "/buildings/hayes_telephone_exchange.webp",
+    "imageAlt": "Hayes Telephone Exchange by Gray Associates & Property. A Brutalist building in Hayes, England."
   }
 ]
