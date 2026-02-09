@@ -1194,5 +1194,117 @@
     ],
     "image": "/buildings/hayes_telephone_exchange.webp",
     "imageAlt": "Hayes Telephone Exchange by Gray Associates & Property. A Brutalist building in Hayes, England."
+  },
+  {
+    "id": "acland_burghley_school",
+    "name": "Acland Burghley School",
+    "area": "Tufnell Park",
+    "lat": 51.557259,
+    "lng": -0.140269,
+    "type": "education",
+    "year": 1967,
+    "architect": "Howell Killick Partridge and Amis",
+    "status": "standing",
+    "shortBlurb": "Acland Burghley School is a mixed comprehensive secondary school in Tufnell Park area of the London Borough of Camden. The building consists of a three storey central core with three five storey towers fanning out from the east side.",
+    "tags": ["Acland Burghley School", "Tufnell Park", "Howell Killick Partridge and Amis", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Acland_Burghley_school,_Tufnell_Park_-_geograph.org.uk_-_4878311.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Acland_Burghley_School"
+      }
+    ],
+    "image": "/buildings/acland_burghley_school.webp",
+    "imageAlt": "Acland Burghley School by Howell Killick Partridge and Amis. A Brutalist building in Tufnell Park, England."
+  },
+  {
+    "id": "brixton_recreation_centre",
+    "name": "Brixton Recreation Centre",
+    "area": "Brixton",
+    "lat": 51.463643,
+    "lng": -0.113262,
+    "type": "other",
+    "year": 1985,
+    "architect": "George Finch",
+    "status": "standing",
+    "shortBlurb": "Brixton Recreation Centre is a vibrant, family-friendly venue with a vast range of facilities, such as a swimming pool, multiple gyms, fitness studios, squash courts and multi-use sports halls.",
+    "tags": ["Brixton Recreation Centre", "George Finch", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Brixton_Recreation_Centre",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/George_Finch_(architect)"
+      }
+    ],
+    "image": "/buildings/brixton_recreation_centre.webp",
+    "imageAlt": "Brixton Recreation Centre by George Finch. A Brutalist building in Brixton, England."
+  },
+  {
+    "id": "cotton_gardens_estate",
+    "name": "Cotton Gardens Estate",
+    "area": "Kennington",
+    "lat": 51.490603,
+    "lng": -0.107366,
+    "type": "housing",
+    "year": 1968,
+    "architect": "George Finch",
+    "status": "standing",
+    "shortBlurb": "Cotton Gradens Estate is a Brutalist housing estate comprising of three tower blocks; Ebenezer House, Fairford House, and Hurley House.",
+    "tags": ["Cotton Gardens Estate", "George Finch", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Cotton_Gardens_Estate,_Kennington_Lane_-_geograph.org.uk_-_3670077.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Housing Wiki",
+        "url": "https://ukhousing.fandom.com/wiki/Cotton_Gardens_Estate"
+      }
+    ],
+    "image": "/buildings/cotton_gardens_estate.webp",
+    "imageAlt": "Cotton Gardens Estate by George Finch. A Brutalist housing estate in Kennington Lane, England."
+  },
+  {
+    "id": "camberwell_submarine",
+    "name": "Camberwell Submarine",
+    "area": "Camberwell",
+    "lat": 51.474728,
+    "lng": -0.106132,
+    "type": "other",
+    "year": 1975,
+    "architect": "Michael Luffingham",
+    "status": "standing",
+    "shortBlurb": "Camberwell Submarine is also known as The Myatt's Fields North Boiler House.",
+    "tags": ["Camberwell Submarine", "Michael Luffingham", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Camberwell_Submarine.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Layers of London",
+        "url": "https://www.layersoflondon.org/map/records/camberwell-submarine"
+      }
+    ],
+    "image": "/buildings/camberwell_submarine.webp",
+    "imageAlt": "Camberwell Submarine by Michael Luffingham. A Brutalist building in Camberwell, England."
   }
 ]
