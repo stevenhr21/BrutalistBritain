@@ -1306,5 +1306,61 @@
     ],
     "image": "/buildings/camberwell_submarine.webp",
     "imageAlt": "Camberwell Submarine by Michael Luffingham. A Brutalist building in Camberwell, England."
+  },
+  {
+    "id": "central_hill_estate",
+    "name": "Central Hill Estate",
+    "area": "Lambeth",
+    "lat": 51.420413,
+    "lng": -0.087086,
+    "type": "housing",
+    "year": 1974,
+    "architect": "Rosemary Stjernstedt, Roger Westman, and Ted Hollamby",
+    "status": "standing",
+    "shortBlurb": "Central Hill Estate is a social housing estate in Lambeth comprising of more than 450 homes. Sadly, Lambeth Council currently plans to demolish the estate.",
+    "tags": ["Central Hill Estate", "Lambeth", "Rosemary Stjernstedt, Roger Westman, and Ted Hollamby", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Housing_estate,_Central_Hill_-_geograph.org.uk_-_1743097.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Central_Hill_Estate"
+      }
+    ],
+    "image": "/buildings/central_hill_estate.webp",
+    "imageAlt": "Central Hill Estate by Rosemary Stjernstedt, Roger Westman, and Ted Hollamby. A Brutalist housing estate in Lambeth, England."
+  },
+  {
+    "id": "southwyck_house",
+    "name": "Southwyck House",
+    "area": "Brixton",
+    "lat": 51.462336,
+    "lng": -0.108458,
+    "type": "housing",
+    "year": 1985,
+    "architect": "George Finch",
+    "status": "standing",
+    "shortBlurb": "Southwyck House is a large housing building on the Somerleyton Estate in Brixton. The block is in the Brutalist style and has similarities to Park Hill, Sheffield and Byker Wall, TYneside..",
+    "tags": ["Southwyck House", "George Finch", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Southwyck_House",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Southwyck_House"
+      }
+    ],
+    "image": "/buildings/southwyck_house.webp",
+    "imageAlt": "Southwyck House by George Finch. A Brutalist building in Brixton, England."
   }
 ]
