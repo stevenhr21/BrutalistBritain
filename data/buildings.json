@@ -1362,5 +1362,33 @@
     ],
     "image": "/buildings/southwyck_house.webp",
     "imageAlt": "Southwyck House by George Finch. A Brutalist building in Brixton, England."
+  },
+  {
+    "id": "swansea_civic_centre",
+    "name": "Swansea Civic Centre",
+    "area": "Swansea",
+    "lat": 51.613780,
+    "lng": -3.949006,
+    "type": "civic",
+    "year": 1982,
+    "architect": "C. W. Quick",
+    "status": "standing",
+    "shortBlurb": "Swansea Civic Centre, formerly known as County Hall, is the principal administrative centre of Swansea Council.",
+    "tags": ["Swansea Civic Centre", "C. W. Quick", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Civic_Centre,_Swansea",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Swansea_Civic_Centre"
+      }
+    ],
+    "image": "/buildings/swansea_civic_centre.webp",
+    "imageAlt": "Swansea Civic Centre by C. W. Quick. A Brutalist building in Swansea, England."
   }
 ]
