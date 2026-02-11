@@ -1390,5 +1390,117 @@
     ],
     "image": "/buildings/swansea_civic_centre.webp",
     "imageAlt": "Swansea Civic Centre by C. W. Quick. A Brutalist building in Swansea, England."
+  },
+  {
+    "id": "st_aidans_college",
+    "name": "St Aidan's College",
+    "area": "Durham",
+    "lat": 54.764660,
+    "lng": -1.584547,
+    "type": "education",
+    "year": 1964,
+    "architect": "Sir Basil Spence",
+    "status": "standing",
+    "shortBlurb": "St Aidan's College buildings are in a brutalist style arranged in a semi-circular arrangement surrounding a central lawn.",
+    "tags": ["St Aidan's College", "Durham", "Sir Basil Spence", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:St_Aidan%27s_College.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/St_Aidan%27s_College,_Durham"
+      }
+    ],
+    "image": "/buildings/st_aidans_college.webp",
+    "imageAlt": "St Aidan's College by Sir Basil Spence. A Brutalist building in Durham, England."
+  },
+  {
+    "id": "park_hill_flats",
+    "name": "Park Hill Flats",
+    "area": "Sheffield",
+    "lat": 53.379969,
+    "lng": -1.458145,
+    "type": "housing",
+    "year": 1961,
+    "architect": "Jack Lynn and Ivor Smith",
+    "status": "standing",
+    "shortBlurb": "Park Hill is a housing estate in Sheffield, Yorkshire. The estate was inspired by the Unite d'habitation housing estate in Marseille, France.",
+    "tags": ["Park Hill Flats", "Sheffield", "Jack Lynn and Ivor Smith", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Park_Hill",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Park_Hill,_Sheffield"
+      }
+    ],
+    "image": "/buildings/park_hill_flats.webp",
+    "imageAlt": "Park Hill Flats by Jack Lynn and Ivor Smith. A Brutalist housing estate in Sheffield, England."
+  },
+  {
+    "id": "new_hall_place",
+    "name": "New Hall Place",
+    "area": "Liverpool",
+    "lat": 53.408684,
+    "lng": -2.995808,
+    "type": "other",
+    "year": 1976,
+    "architect": "Tripe & Wakeham",
+    "status": "standing",
+    "shortBlurb": "New Hall PLace is an office building with many names, including the nickname 'The Sand Castle' from locals. The building stands 13 stories high and has been described as a cubist interpretation of the Liver building.",
+    "tags": ["New Hall Place", "Liverpool", "Tripe & Wakeham", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:New_Hall_Place",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/New_Hall_Place"
+      }
+    ],
+    "image": "/buildings/new_hall_place.webp",
+    "imageAlt": "New Hall Place by Tripe & Wakeham. A Brutalist office building in Liverpool, England."
+  },
+  {
+    "id": "queen_elizabeth_law_courts",
+    "name": "Queen Elizabeth II Law Courts",
+    "area": "Liverpool",
+    "lat": 53.404070,
+    "lng": -2.989601,
+    "type": "other",
+    "year": 1984,
+    "architect": "Farmer and Dark",
+    "status": "standing",
+    "shortBlurb": "The Queen Elizabeth II Law Courts in Derby Square is used by the Crown Court, the Magistrates' Court and Tribunals Service, Liverpool District Probate Registry and the Liverpool Youth Court.",
+    "tags": ["Queen Elizabeth II Law Courts", "Liverpool", "Farmer and Dark", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:Queen_Elizabeth_II_Law_Courts,_Liverpool",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Queen_Elizabeth_II_Law_Courts,_Liverpool"
+      }
+    ],
+    "image": "/buildings/queen_elizabeth_law_courts.webp",
+    "imageAlt": "Queen Elizabeth II Law Courts by Farmer and Dark. A Brutalist building in Liverpool, England."
   }
 ]

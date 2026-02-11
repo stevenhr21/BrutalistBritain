@@ -9,19 +9,19 @@
     "id": "North West",
     "name": "NORTH WEST",
     "description": "Built tough. Weathered harder.",
-    "buildingIds": ["preston_bus_station"]
+    "buildingIds": ["preston_bus_station", "new_hall_place", "queen_elizabeth_law_courts"]
   },
 {
     "id": "North East",
     "name": "NORTH EAST",
     "description": "Monumental Modernism of the Industrial Heartland.",
-    "buildingIds": ["pasmore_pavilion", "dunelm_house"]
+    "buildingIds": ["pasmore_pavilion", "dunelm_house", "st_aidans_college"]
   },
 {
     "id": "Yorkshire and the Humber",
     "name": "YORKSHIRE AND THE HUMBER",
     "description": "If it's worth doing, it's worth overdoing.",
-    "buildingIds": ["moore_street", "bank_house", "high_point", "central_hall"]
+    "buildingIds": ["moore_street", "bank_house", "high_point", "central_hall", "park_hill_flats"]
   },
 {
     "id": "East Midlands",
