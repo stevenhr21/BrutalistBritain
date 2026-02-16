@@ -1502,5 +1502,89 @@
     ],
     "image": "/buildings/queen_elizabeth_law_courts.webp",
     "imageAlt": "Queen Elizabeth II Law Courts by Farmer and Dark. A Brutalist building in Liverpool, England."
+  },
+  {
+    "id": "bethnal_green_fire_station",
+    "name": "Bethnal Green Fire Station",
+    "area": "Bethnal Green",
+    "lat": 51.527830,
+    "lng": -0.053271,
+    "type": "other",
+    "year": 1967,
+    "architect": "GLC Architects",
+    "status": "standing",
+    "shortBlurb": "Replacing the original Victorian station, the new Bethnal Green Fire Station became fully operational in 1969 and was designed to house two fire engines, over thirty firefighters and had a 55 foot training tower.",
+    "tags": ["Bethnal Green Fire Station", "Bethnal Green", "GLC Architects", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Bethnal_Green_Fire_Station_-_geograph.org.uk_-_7049459.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "LFB",
+        "url": "https://www.london-fire.gov.uk/museum/london-fire-brigade-history-and-stories/the-history-of-londons-fire-stations/bethnal-green-fire-station/"
+      }
+    ],
+    "image": "/buildings/bethnal_green_fire_station.webp",
+    "imageAlt": "Bethnal Green Fire Station by GLC Architects. A Brutalist building in Bethnal Green, England."
+  },
+  {
+    "id": "blackheath_meeting_house",
+    "name": "Blackheath Meeting House",
+    "area": "Blackheath",
+    "lat": 51.465134,
+    "lng": 0.007046,
+    "type": "other",
+    "year": 1971,
+    "architect": "Trevor Dannatt and Partners",
+    "status": "standing",
+    "shortBlurb": "Blackheath Meeting House is believed to be the only Quaker meeting house in Britain built in the Brutalist style. It has been the home of Blackheath Quaker Meeting since 1972.",
+    "tags": ["Blackheath Meeting House", "Blackheath", "Trevor Dannatt and Partners", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Blackheath_Quaker_Meeting_House,_south_aspect.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Blackheath_Quaker_Meeting_House"
+      }
+    ],
+    "image": "/buildings/blackheath_meeting_house.webp",
+    "imageAlt": "Blackheath Meeting House by Trevor Dannatt and Partners. A Brutalist building in Blackheath, England."
+  },
+  {
+    "id": "national_archives_kew",
+    "name": "National Archives",
+    "area": "Richmond",
+    "lat": 51.481112,
+    "lng": -0.279197,
+    "type": "civic",
+    "year": 1977,
+    "architect": "John Cecil",
+    "status": "standing",
+    "shortBlurb": "The National Archives is the official national archive of the UK Government, and for England and Wales. The original building was designed by John Cecil Clavering and opened in 1977 by Queen Elizabeth II.",
+    "tags": ["National Archives", "Richmond", "John Cecil", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Category:The_National_Archives_building_at_Kew",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_National_Archives_(United_Kingdom)#Location"
+      }
+    ],
+    "image": "/buildings/national_archives_kew.webp",
+    "imageAlt": "National Archives by John Cecil. A Brutalist building in Richmond, England."
   }
 ]
