@@ -1586,5 +1586,33 @@
     ],
     "image": "/buildings/national_archives_kew.webp",
     "imageAlt": "National Archives by John Cecil. A Brutalist building in Richmond, England."
+  },
+  {
+    "id": "arlington_house",
+    "name": "Arlington House",
+    "area": "Margate",
+    "lat": 51.386044,
+    "lng": 1.374774,
+    "type": "housing",
+    "year": 1963,
+    "architect": "Russell Diplock & Associates",
+    "status": "standing",
+    "shortBlurb": "Arlington House is an 18-storey residential apartment and commercial block in the Brutalist style on the seafront of Margate, Kent. The sides of the building have a wave-like design, providing both inland and sea views from all apartments.",
+    "tags": ["Arlington House", "Margate", "Russell Diplock & Associates", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Arlington_Flats_Brutalist_high_rise_Margate_Kent_England.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Arlington_House,_Margate"
+      }
+    ],
+    "image": "/buildings/arlington_house.webp",
+    "imageAlt": "Arlington House by Russell Diplock & Associates. A Brutalist building in Margate, England."
   }
 ]

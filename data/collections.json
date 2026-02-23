@@ -45,7 +45,7 @@
     "id": "South East",
     "name": "SOUTH EAST",
     "description": "Concrete beyond the capital.",
-    "buildingIds": ["portsmouth_central_library"]
+    "buildingIds": ["portsmouth_central_library", "arlington_house"]
   },
 {
     "id": "South West",
