@@ -1614,5 +1614,33 @@
     ],
     "image": "/buildings/arlington_house.webp",
     "imageAlt": "Arlington House by Russell Diplock & Associates. A Brutalist building in Margate, England."
+  },
+  {
+    "id": "strawberry_vale_estate",
+    "name": "Strawberry Vale Estate",
+    "area": "East Finchley",
+    "lat": 51.602036,
+    "lng": -0.169671,
+    "type": "housing",
+    "year": 1982,
+    "architect": "Bickerdike Allen",
+    "status": "standing",
+    "shortBlurb": "Strawberry Vale Estate consists of a long curving barrier block of five storeys, protecting the estate from the noise of traffic, with monopitch brick houses clustered in the centre.",
+    "tags": ["Strawberry Vale Estate", "East Finchley", "Bickerdike Allen", "Brutalism"],
+    "photos": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Strawberry_Vale_Estate_02.jpg#/media/File:Strawberry_Vale_Estate_02.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Strawberry_Vale_Estate"
+      }
+    ],
+    "image": "/buildings/strawberry_vale_estate.webp",
+    "imageAlt": "Strawberry Vale Estate by Bickerdike Allen. A Brutalist housing estate in East Finchley, England."
   }
 ]
